@@ -1,0 +1,22 @@
+name: Draw keymap
+on:
+  push:
+    paths:
+      - 'config/*.keymap'
+      - 'config/boards/shields/totem/**'
+      - 'keymap_drawer.config.yaml'
+      - '.github/workflows/draw-keymap.yml'
+  workflow_dispatch:
+
+jobs:
+  draw:
+    permissions:
+      contents: write
+    uses: caksoylar/keymap-drawer/.github/workflows/draw-zmk.yml@main
+    with:
+      keymap_patterns: 'config/*.keymap'
+      config_path: 'keymap_drawer.config.yaml'
+      west_config_path: 'config'
+      output_folder: 'keymap-drawer'
+      commit_message: 'chore: render keymap SVG'
+      parse_args: "totem:'--layer-names Base Nav Sym Num Media Game GameFn Sys'"

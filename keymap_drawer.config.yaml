@@ -1,0 +1,65 @@
+parse_config:
+  skip_binding_parsing: false
+  raw_binding_map:
+    "&kp UNDER": "_"
+    "&kp DQT": "\""
+    "&kp DOT": "."
+    "&kp COMMA": ","
+    "&kp SEMI": ";"
+    "&kp COLON": ":"
+    "&kp BSLH": "\\"
+    "&kp FSLH": "/"
+    "&kp GRAVE": "`"
+    "&kp TILDE": "~"
+    "&kp EXCL": "!"
+    "&kp AT": "@"
+    "&kp HASH": "#"
+    "&kp DLLR": "$"
+    "&kp PRCNT": "%"
+    "&kp CARET": "^"
+    "&kp AMPS": "&"
+    "&kp STAR": "*"
+    "&kp LPAR": "("
+    "&kp RPAR": ")"
+    "&kp LBKT": "["
+    "&kp RBKT": "]"
+    "&kp LBRC": "{"
+    "&kp RBRC": "}"
+    "&kp PLUS": "+"
+    "&kp MINUS": "-"
+    "&kp EQUAL": "="
+    "&kp QMARK": "?"
+    "&kp BSPC": "⌫"
+    "&kp DEL": "⌦"
+    "&kp RET": "↵"
+    "&kp ESC": "Esc"
+    "&kp TAB": "Tab"
+    "&kp SPACE": "␣"
+    "&kp LSHFT": "⇧"
+    "&kp LCTRL": "Ctrl"
+    "&kp LALT": "Alt"
+    "&kp LGUI": "⌘"
+    "&kp LEFT": "←"
+    "&kp DOWN": "↓"
+    "&kp UP": "↑"
+    "&kp RIGHT": "→"
+    "&kp HOME": "Home"
+    "&kp END": "End"
+    "&kp PG_UP": "PgUp"
+    "&kp PG_DN": "PgDn"
+
+draw_config:
+  key_h: 56
+  key_w: 60
+  combo_w: 28
+  combo_h: 22
+  inner_pad_w: 2
+  inner_pad_h: 2
+  outer_pad_w: 30
+  outer_pad_h: 30
+  line_spacing: 1.2
+  arc_radius: 6
+  small_pad: 2
+  glyph_tap_size: 14
+  non_key_colors: true
+  dark_mode: auto

@@ -1,0 +1,323 @@
+layout: {zmk_keyboard: totem}
+layers:
+  Base:
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - {t: A, h: ⌘}
+  - {t: S, h: Alt}
+  - {t: D, h: Ctrl}
+  - {t: F, h: ⇧}
+  - G
+  - H
+  - {t: J, h: RSHFT}
+  - {t: K, h: RCTRL}
+  - {t: L, h: RALT}
+  - {t: '''', h: RGUI}
+  - \
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - '['
+  - '&td_esc_base'
+  - {t: ⌫, h: Nav}
+  - {t: Tab, h: Sym}
+  - {t: ↵, h: Num}
+  - SPC
+  - ⌦
+  Nav:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - Home
+  - PgDn
+  - PgUp
+  - End
+  - INS
+  - ⌘
+  - Alt
+  - Ctrl
+  - ⇧
+  - ''
+  - ←
+  - ↓
+  - ↑
+  - →
+  - CAPS
+  - {t: Base, h: toggle}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - Ctl+X
+  - Ctl+C
+  - Ctl+V
+  - Ctl+Z
+  - Ctl+Y
+  - {t: Base, h: toggle}
+  - {t: Base, h: toggle}
+  - {type: held}
+  - ''
+  - ↵
+  - SPC
+  - ⌦
+  Sym:
+  - '~'
+  - '`'
+  - '{'
+  - '}'
+  - '|'
+  - \
+  - '&'
+  - '*'
+  - (
+  - )
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
+  - ^
+  - '-'
+  - '='
+  - '['
+  - ']'
+  - {t: Base, h: toggle}
+  - ''
+  - ''
+  - <
+  - '>'
+  - _
+  - +
+  - ;
+  - ':'
+  - '"'
+  - '?'
+  - {t: Base, h: toggle}
+  - {t: Base, h: toggle}
+  - ''
+  - {type: held}
+  - ↵
+  - SPC
+  - ⌦
+  Num:
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - '7'
+  - '8'
+  - '9'
+  - F11
+  - ⌘
+  - Alt
+  - Ctrl
+  - ⇧
+  - F10
+  - '0'
+  - '4'
+  - '5'
+  - '6'
+  - F12
+  - {t: Base, h: toggle}
+  - ''
+  - ''
+  - ''
+  - ''
+  - F9
+  - .
+  - '1'
+  - '2'
+  - '3'
+  - /
+  - {t: Base, h: toggle}
+  - {t: Base, h: toggle}
+  - ⌫
+  - Tab
+  - {type: held}
+  - SPC
+  - ⌦
+  Media:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - PREV
+  - VOL DN
+  - VOL UP
+  - NEXT
+  - ''
+  - {t: Base, h: toggle}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - STOP
+  - MUTE
+  - ''
+  - ''
+  - ''
+  - {t: Base, h: toggle}
+  - {t: Base, h: toggle}
+  - {type: held}
+  - {type: held}
+  - PP
+  - ''
+  - ''
+  Game:
+  - '1'
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - Tab
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - Ctrl
+  - ⇧
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - P
+  - {t: Base, h: toggle}
+  - Esc
+  - SPC
+  - GameFn
+  - ↵
+  - ''
+  - {t: Base, h: toggle}
+  GameFn:
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - {t: Base, h: toggle}
+  - F11
+  - F12
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: Base, h: toggle}
+  - ''
+  - ''
+  - {type: held}
+  - {t: ▽, type: trans}
+  - ''
+  - {t: Base, h: toggle}
+  Sys:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&bootloader'
+  - '&sys_reset'
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - ''
+  - {type: held}
+  - ''
+  - ''
+  - ''
+  - BT CLR
+  - BT CLR
+  - BT PRV
+  - BT NXT
+  - OUT USB
+  - {t: OUT BLE, type: held}
+  - ''
+  - {t: Base, h: toggle}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+combos:
+- p: [13, 16]
+  k: '&caps_word'
+- p: [34, 35]
+  k: {t: Base, h: toggle}
+- p: [20, 31]
+  k: {t: Game, h: toggle}
+- p: [21, 30]
+  k: Sys
